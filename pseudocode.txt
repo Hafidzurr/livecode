@@ -1,0 +1,17 @@
+
+program ini memungkinkan array numbers yang telah di definisikan dikalikan dengan 2 melalui pemanggilan variabel newArray sebagai variabel yang menyimpan array baru
+
+variabel numbers = [1,2,3,4,5]
+variabel newArray = numbers.map(perkalianNumber)
+
+variabel newArray memangil array numbers dengan menggunakan map lalu menjadikan array tersebut sebagai operator dari fungsi perkalianNumber
+
+fungsi perkalianNumber mengeluarkan output berupa angka yang telah dikalikan 2 dengan num sebagai paramater
+
+
+numbers.map(perkalianNumber) menjadikan array pada variabel numbers sebagai parameter fungsi, kemudian fungsi dijalankan dengan mengalikan numbers atau array tersebut dengan 2 dan menghasiklan array baru berupa array yang telah dikalikan 2
+
+untuk menerima ouput, variabel newArray dicetak menggunakan console.log(newArray) kemudian mengeluarkan hasil array [2,4,6,8,10]
+
+
+
